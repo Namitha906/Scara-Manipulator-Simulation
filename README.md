@@ -20,5 +20,12 @@ This project demonstrates the design and simulation of a 3-DOF SCARA manipulator
 - Blender animation video
 - Project report
 
+## Project Videos
+Blender Animation
+https://drive.google.com/file/d/17988lL8z2UsFo-sG8JUPp_VtmoU9g3qn/view?usp=sharing
+
+Matlab Animation
+https://drive.google.com/file/d/1oo6Yf_R95FDTCDt3bYVFuc_upRpWMxoG/view?usp=sharing
+
 ## Author
 Namitha
