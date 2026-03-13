@@ -88,6 +88,12 @@ https://drive.google.com/file/d/1oo6Yf_R95FDTCDt3bYVFuc_upRpWMxoG/view?usp=shari
 
 ---
 
+##Future Improvements
+- Implement ROS-based control.
+- Use Gazebo for realistic physics simulation.
+- Add a gripper and better joint constraints.
+- Integrate sensors for feedback and automation.
+
 ##  Author
 
 Namitha  
