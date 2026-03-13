@@ -36,19 +36,39 @@ The robot performs the following sequence:
 ### Inverse Kinematics
 
 Used to compute joint angles from the desired end-effector position.
+## Inverse Kinematics
 
-\[
-r = \sqrt{x^2 + y^2}
-\]
+Used to compute joint angles from the desired end-effector position.
 
-\[
-\theta_2 = \cos^{-1}\left(\frac{r^2 - L_1^2 - L_2^2}{2L_1L_2}\right)
-\]
+**Radial distance**
 
-\[
-\theta_1 = \tan^{-1}\left(\frac{y}{x}\right) -
-\tan^{-1}\left(\frac{L_2\sin(\theta_2)}{L_1 + L_2\cos(\theta_2)}\right)
-\]
+r = √(x² + y²)
+
+**Joint angle θ₂**
+
+θ₂ = cos⁻¹((r² − L₁² − L₂²) / (2L₁L₂))
+
+**Joint angle θ₁**
+
+θ₁ = tan⁻¹(y/x) − tan⁻¹((L₂ sin θ₂) / (L₁ + L₂ cos θ₂))
+
+###Forward Kinematics
+
+Forward kinematics is used to compute the position of the joints and the end-effector from the known joint angles.
+
+**Position of Joint 1**
+
+x₁ = L₁ cos(θ₁)  
+y₁ = L₁ sin(θ₁)
+
+**Position of End Effector**
+
+x₂ = x₁ + L₂ cos(θ₁ + θ₂)  
+y₂ = y₁ + L₂ sin(θ₁ + θ₂)
+
+**Vertical Position**
+
+z = z₀ − d₃
 
 ---
 
