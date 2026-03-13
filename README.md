@@ -33,9 +33,7 @@ The robot performs the following sequence:
 
 ##  Kinematics Used
 
-### Inverse Kinematics
 
-Used to compute joint angles from the desired end-effector position.
 ## Inverse Kinematics
 
 Used to compute joint angles from the desired end-effector position.
